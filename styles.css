@@ -1,0 +1,37 @@
+@font-face {
+	font-family: Minecraft;
+	src: url('font.otf');
+}
+
+.armor {
+	text-anchor: end;
+	fill: blueviolet;
+	alignment-baseline: central;
+	font-family: Minecraft;
+	font-size: 20;
+}
+.yellow {
+	text-anchor: middle;
+	fill: gold;
+	alignment-baseline: central;
+	font-family: Minecraft;
+	font-size: 20;
+}
+
+.green {
+	text-anchor: end;
+	fill: forestgreen;
+	alignment-baseline: central;
+	font-family: Minecraft;
+	font-size: 20;
+}
+
+polyline, rect {
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.shadow {
+	filter: drop-shadow( 1px 1px 0 rgba(0, 0, 0, 0.8));
+	/* Similar syntax to box-shadow */
+}

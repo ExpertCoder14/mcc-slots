@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<style>
+			
+		</style>
+		<marker id="bluevioletPointer"  markerWidth="30" markerHeight="30" refX="15" refY="15" orient="auto" markerUnits="userSpaceOnUse">
+			<polyline points="10,10 15,15 10,20" fill="none" stroke="blueviolet" stroke-width="3" />
+		</marker>
+		<marker id="yellowPointer"  markerWidth="30" markerHeight="30" refX="15" refY="15" orient="auto" markerUnits="userSpaceOnUse">
+			<polyline points="10,10 15,15 10,20" fill="none" stroke="gold" stroke-width="3" />
+		</marker>
+		<marker id="forestgreenPointer"  markerWidth="30" markerHeight="30" refX="15" refY="15" orient="auto" markerUnits="userSpaceOnUse">
+			<polyline points="10,10 15,15 10,20" fill="none" stroke="forestgreen" stroke-width="3" />
+		</marker>
+	</defs>
+	<link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="styles.css" type="text/css" />
+	<title>SVG demonstration</title>
+  <desc>Mozilla CSS Getting Started - SVG demonstration</desc>
+	<rect x="50" y="50" width="550" height="400" rx="25" ry="25" fill="none" stroke="black" stroke-width="5" />
+	<image href="inventory.png" x="250" y="100" height="300" />
+	
+	<rect x="383" y="206" width="40" height="40" rx="5" ry="5" fill="#ffd70080" stroke="#ffd700" stroke-width="2" />
+	<polyline points="402.5,90 402.5,200" marker-end="url(#yellowPointer)" fill="none" stroke="gold" stroke-width="3" class="shadow" />
+	<text x="402.5" y="75" fill="gold" class="yellow shadow">weapon.offhand</text>
+	
+	<rect x="259" y="110" width="40" height="135" rx="5" ry="5" fill="#8a2be280" stroke="#8a2be2ff" stroke-width="2" />
+	<text x="200" y="127.5" class="armor shadow">armor.head</text>
+	<polyline points="210,127.5 240,127.5" marker-end="url(#bluevioletPointer)" fill="none" stroke="blueviolet" stroke-width="3" class="shadow" />
+	<text x="200" y="160" class="armor shadow">armor.chest</text>
+	<polyline points="210,160 240,160" marker-end="url(#bluevioletPointer)" fill="none" stroke="blueviolet" stroke-width="3" class="shadow" />
+	<text x="200" y="192.5" class="armor shadow">armor.legs</text>
+	<polyline points="210,192.5 240,192.5" marker-end="url(#bluevioletPointer)" fill="none" stroke="blueviolet" stroke-width="3" class="shadow" />
+	<text x="200" y="225" class="armor shadow">armor.feet</text>
+	<polyline points="210,225 240,225" marker-end="url(#bluevioletPointer)" fill="none" stroke="blueviolet" stroke-width="3" class="shadow" />
+	
+	<rect x="259" y="247" width="300" height="103" rx="5" ry="5" fill="#228b2280" stroke="#228b22" stroke-width="2" />
+	<polyline points="180,297.5 240,270" marker-end="url(#forestgreenPointer)" fill="none" stroke="forestgreen" stroke-width="3" class="shadow" />
+	<polyline points="180,297.5 240,297.5" marker-end="url(#forestgreenPointer)" fill="none" stroke="forestgreen" stroke-width="3" class="shadow" />
+	<polyline points="180,297.5 240,325" marker-end="url(#forestgreenPointer)" fill="none" stroke="forestgreen" stroke-width="3" class="shadow" />
+	<text x="150" y="297.5" class="green shadow">inventory.</text>
+	<rect x="152" y="288" width="12" height="16" fill="silver" stroke="black" stroke-width="1" stroke-dasharray="1 2" />
+	
+	
+	<rect x="259" y="352" width="300" height="38" rx="5" ry="5" fill="#b2222280" stroke="#b22222" stroke-width="2" />
+	
+</svg>
